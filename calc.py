@@ -1,3 +1,5 @@
+# хранить в какой-либо директории (например, "app")
+
 class Calculator:
    def multiply(self, x, y):
        return x * y
