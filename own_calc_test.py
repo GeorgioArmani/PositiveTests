@@ -1,3 +1,5 @@
+# хранить в директории "tests"
+
 from app.calc import Calculator
 
 
