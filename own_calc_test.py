@@ -19,5 +19,8 @@ class TestCalcPositive:
     def test_success_adding(self):
         assert self.calc.adding(self, 6, 3) != 8
 
+    def test_success_percent(self):
+        assert self.calc.percent(self, 5, 8) == 62.5
+
     def teardown(self):
         print('Тест завершен!')
