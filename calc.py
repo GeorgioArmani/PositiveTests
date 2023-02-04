@@ -1,14 +1,17 @@
-# хранить в какой-либо директории (например, "app")
+# хранить в отдельной директории (например, "app")
 
 class Calculator:
-   def multiply(self, x, y):
-       return x * y
+    def multiply(self, x, y):
+        return x * y
 
-   def division(self, x, y):
-       return x / y
+    def division(self, x, y):
+        return x / y
 
-   def subtraction(self, x, y):
-       return x - y
+    def subtraction(self, x, y):
+        return x - y
 
-   def adding(self, x, y):
-       return x + y
+    def adding(self, x, y):
+        return x + y
+
+    def percent(self, x, y):
+        return (x / y) * 100
